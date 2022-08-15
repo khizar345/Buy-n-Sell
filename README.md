@@ -1,2 +1,3 @@
 # Buy & Sell
-E-grocery website. Where users can view and interact with the products fecthed from the database.
+E-grocery website. 
+The concept is that consumers and businesses can buy and sell products, respectively, via the website.
