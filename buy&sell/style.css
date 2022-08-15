@@ -1,0 +1,209 @@
+/**the website is zoomed out a bit to make it look better on smaller screen sizes
+the other function makes it possible to scroll down smoothly to transition on the same page
+**/
+html { 
+    zoom: .8;
+    scroll-behavior: smooth;
+}
+/** applies to all the elements**/
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/**section with the class header with a background image and a shadowey effect is applied with the linear-gradient**/
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/**this is the logo**/
+.header img{
+    width: 200px;
+    float: left;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+/**styling the different captions **/
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header h6{
+    display: inline-block; 
+    text-align:right; 
+    width: 100%;   
+}
+/**the bootstrap class for input box **/
+.input-group{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 6px;
+    resize: vertical; 
+}
+/**same bootstrap, input made round **/
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 1px;
+    box-shadow: none !important;
+}
+/**desiging the go submit button that redirects user to a search page with different results fetched from the database **/
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(aquamarine,blue);
+    border: 0 !important;
+    color: white !important;
+    padding: 0 25px;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+/*offers*/
+/*the following styling applies for the subsequent section containing offers*/
+.offers{
+    padding: 100px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.offer-img img{
+ width: 100%;
+}
+
+/** makes the images of the offers change with screen size**/
+.offer-img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.offer-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.offer-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.offer-details .fa{
+    padding: 10px;
+    margin-right: 5px;
+    background: white;
+    bottom: -1px;
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.offer-box{
+    box-shadow: 0 0 10px 1px rgba(55,91,175,0.18);
+    margin-bottom: 30px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-md-5{
+    width: 160px;
+}
+.col-md-5 img{
+    width: auto;
+    cursor: pointer;
+}
+
+/** the footer section**/
+/**the distinclty unique background **/
+.footer{
+    padding: 60px 0 20px;
+    background-image: linear-gradient(orange,maroon);
+    color: white;
+    font-size: 14px;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.news-logo img{
+    width: 110px; 
+}
+
+.social-logo img{
+    width: 190px;
+}
